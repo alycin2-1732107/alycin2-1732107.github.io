@@ -1,0 +1,67 @@
+body {
+    margin: 10%;
+}
+
+h1 {
+    border: 2px solid black; 
+    border-style: dotted; 
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container {
+    position: relative; 
+    text-align: center; 
+    color: white;
+}
+
+#laCroixHeader {
+    height: 30%; 
+    width: 30%;
+}
+
+#onPhotoText {
+    font-family: 'Lobster', cursive; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-weight: bold; font-size: 45px;
+}
+
+#intro {
+    font-family: 'BenchNine', sans-serif; 
+    font-size: 20px;
+}
+
+#pamplemousse {
+    height: 25%; 
+    width: 25%; 
+    margin: 20px;
+}
+
+#bestFlavors {
+    font-family: 'Playfair Display', serif; 
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .side-to-side {
+      height: 200px;
+      width: 100px;
+  }
